@@ -11,7 +11,7 @@ First, I compared the spectra measured for clear tap water with water containing
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/10489972/132110630-2a6c5a75-afbe-4c98-a12b-bc3f0cdf3579.png">
 
-I don't want to read too much into the results. It's not clear why some frequencies reflect more than others for clear water. The results seem almost like an amplification of that initial measurement. The color green is associated with wavelengths ~520-570nm, or bands E (510), F (535), and G (560). Those are all amplified in the presence of green food coloring, but so are the lower/bluer bands. It's also not clear why something like band R (610, orange) is activated by the green food coloring. 
+I don't want to read too much into the results. It's not clear why some wavelengths reflect more than others for clear water. The results seem almost like an amplification of that initial measurement. The color green is associated with wavelengths ~520-570nm, or bands E (510 nm), F (535 nm), and G (560 nm). Those are all amplified in the presence of green food coloring, but so are the lower/bluer bands. It's also not clear why something like band R (610 nm, orange) is activated by the green food coloring. 
 
 Next I wanted to test something that wasn't visible to the naked eye, so I tried incrementally lowering the pH of tap water. The results don't seem to give meaningful information. 
 
@@ -21,7 +21,7 @@ I'm concerned that my setup is insufficient for getting repeatable results. The 
 
 Changes for the next iteration:
 - Square cuvette instead of rounded vial
-- How far should the board be from the cuvette? SparkFun said 1 inch. 
+- How far should the board be from the cuvette? (SparkFun said 1 inch.) 
 - Use external bulbs? This seems like a hassle, is there any evidence that it would help? 
-- Should we stick with the Triad? There are many open-source designs already on [PublicLabs](), but these are designed for a different method using a diffraction grating. The PublicLabs method claims to be accurate to 1nm in the range of 400-900nm, essentially the visiable spectrum. The Triad, on the other hand, is $70 and covers 18 bands ranging from 410-940nm. Another option is the C12880MA that was reviewed [here](https://impfs.github.io/review/), ~$400 and covering a range of 340-850nm. It would be really useful to be able to measure in the UV range (200-300) but I'm not aware of an affordable method to do so. 
+- Should we stick with the Triad? There are many open-source designs already on [Public Lab](https://publiclab.org/wiki/spectrometry), but these are designed for a different method using a diffraction grating. The PublicLabs method claims to be accurate to 1nm in the range of 400-900nm, essentially the visiable spectrum. The Triad, on the other hand, is $70 and covers 18 bands ranging from 410-940nm. Another option is the C12880MA that was reviewed [here](https://impfs.github.io/review/), ~$400 and covering a range of 340-850nm. It would be really useful to be able to measure in the UV range (200-300) but I'm not aware of an affordable method to do so. 
 
