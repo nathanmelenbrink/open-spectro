@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Open Source Spectrometry for Water Quality Analysis
 
-You can use the [editor on GitHub](https://github.com/nathanmelenbrink/open-spectro/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This respository will be used to collect information to support the development of a low-cost spectrometry solution for water quality analysis. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Requirements 
+We want to be able to perform common water quality analysis tests, in approximate order of priority: 
+- pH
+- Nitrate
+- Nitrite
+- Ammonia
+- C02 
+- Fe
 
-### Markdown
+Some of these tests are more difficult than others. Ideally, we would be able to minimize auxiliary steps (adding reagents, mixing powders, etc.) and get by with just spectral analysis for most of these tests. I don't yet have a good idea of what can be done without a colorimetric reagent, but it does seem like all of these tests are possible with the addition of known colorimetric reagents. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Precedents 
+- Some of the writeups on Public Lab are pretty sophisticated, like the [detection of added sugar in red wine](https://publiclab.org/notes/ygzstc/07-23-2014/detection-of-added-sugar-in-red-wine-using-visual-light-spectroscopy). It seems like added sugar does influence how light passes through the sample in a way that is measurable, but it requires careful calibration. 
+- Commercially available products like this [nitrate tester](https://nitrate.com/store/index.php/on-site-test-kits/handheld-photometer-introductory-package). $300+ seems pretty steep for a 3D printed case and what I assume is a light source, diffraction grating and camera inside. Or is it something else? Why do they only offer nitrate and phospohate detection? 
+- A recent [review paper](https://www.mdpi.com/2076-3417/10/19/6874) talks about what is possible, but neglects to discuss experimental setups/hardware. If I understand correctly, it also suggests that nitrite and nitrate can be measured without reagents but only in the UV range -- but none of our hardware options go down to wavelenths ~200-300. 
+- Review of the [C12880 sensor module](https://impfs.github.io/review/)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nathanmelenbrink/open-spectro/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Open Questions
+- Which chemicals can be detected using only spectrometry? Will most tests require the addition of a colorimetric reagent? We hope to minimize this as much as possible. 
+- Should we use method 1 (diffraction grating + camera, i.e. flourescence spectrometry) or [method 2 (Spectral Triad or other board)](./triad.md)? What are the trade-offs in terms of range (nm), accuracy, and cost? 
