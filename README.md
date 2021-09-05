@@ -8,7 +8,7 @@ We want to be able to perform common water quality analysis tests, in approximat
 - Nitrate
 - Nitrite
 - Ammonia
-- C02 
+- CO2 
 - Fe
 
 Some of these tests are more difficult than others. Ideally, we would be able to minimize auxiliary steps (adding reagents, mixing powders, etc.) and get by with just spectral analysis for most of these tests. I don't yet have a good idea of what can be done without a colorimetric reagent, but it does seem like all of these tests are possible with the addition of known colorimetric reagents. 
