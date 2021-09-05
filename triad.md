@@ -2,8 +2,8 @@
 
 I created a 3D printed enclosure to block ambient light and hold the [AS7265x Spectral Triad](https://www.sparkfun.com/products/15050). 
 
-![image](https://user-images.githubusercontent.com/10489972/132111227-0265ef75-c1a5-4978-a153-5cd524091712.png)
-![image](https://user-images.githubusercontent.com/10489972/132111239-97fa0389-8421-47ce-a2ca-d7de65da5098.png)
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/10489972/132111227-0265ef75-c1a5-4978-a153-5cd524091712.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/10489972/132111239-97fa0389-8421-47ce-a2ca-d7de65da5098.png">
 
 The data can be found [here](https://docs.google.com/spreadsheets/d/18tIvDpiz1NvjK_i_9pyhub3FySeUjG97rWv8cSUtHuc/edit?usp=sharing). 
 
