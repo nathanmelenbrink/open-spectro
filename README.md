@@ -22,4 +22,4 @@ Some of these tests are more difficult than others. Ideally, we would be able to
 
 ### Open Questions
 - Which chemicals can be detected using only spectrometry? Will most tests require the addition of a colorimetric reagent? We hope to minimize this as much as possible. 
-- Should we use method 1 (diffraction grating + camera, i.e. flourescence spectrometry) or [method 2 (Spectral Triad or other board)](./triad.md)? What are the trade-offs in terms of range (nm), accuracy, and cost? 
+- Should we use [method 1 (diffraction grating + camera, i.e. flourescence spectrometry)](https://publiclab.org/wiki/spectrometry) or [method 2 (Spectral Triad or other board)](./triad.md)? What are the trade-offs in terms of range (nm), accuracy, and cost? 
