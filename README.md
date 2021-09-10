@@ -5,9 +5,9 @@ This respository will be used to collect information to support the development 
 ### Requirements 
 We want to be able to perform common water quality analysis tests, in approximate order of priority: 
 - pH
+- Ammonia
 - Nitrate
 - Nitrite
-- Ammonia
 - CO2 
 - Fe
 
